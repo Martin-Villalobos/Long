@@ -6,18 +6,9 @@
 html, body{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    background-color: black;
     height: 100%;
     width: 100%;
-}
-#background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: url("../img/bg.jpg");
-    background-size: cover;
-    z-index: -1;
 }
 /* BOTON */
 .btnfos {
@@ -74,7 +65,10 @@ html, body{
 /* HERO */
 .hero{
     height: 100vh;
-    background: none;
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #fff;
     padding-top: 2rem;
 }
@@ -121,28 +115,20 @@ html, body{
 }
 /* SECCTION */
 .secction{
-    background-color: black;
-    /*background: url("../img/Billetes.png");*/
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    margin: 4rem 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .cards{
     display:flex;
     flex-wrap: wrap;
-    margin-top: 4rem;
 }
 .cards > *{
     flex: 1 1 20%;
-    margin: 15px 0.9%;
-    background: rgb(254,210,75);
-    background: linear-gradient(0deg, rgba(254,210,75,1) 0%, rgba(254,245,137,1) 66%, rgba(215,157,21,1) 100%);
-    border: 3px solid rgba(221,158,23);
-    box-shadow: 2px 2px 5px rgb(251, 226, 0);
+    margin: 15px 5px;
+    background: rgb(157,119,48);
+    background: linear-gradient(0deg, rgba(157,119,48,1) 0%, rgba(254,220,112,1) 68%, rgba(157,119,48,1) 100%);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -169,23 +155,10 @@ footer{
     width: 100%;
     background-color: #303030;
     color:#AFAFAF;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    
 }
-.footer-list{
-    text-align: center;
-    list-style: none;
-
-}
-.footer-list li{
-    text-align: center;
-    list-style: inside;
-    list-style-type: none;
-}
-/* MEDIA */
-@media (max-width: 600px){
-    .secction{
-        background: url("../img/Billetes2.png");
-    }
-
+.footer-content{
+    margin: 20px;
 }
