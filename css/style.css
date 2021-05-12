@@ -18,6 +18,7 @@ html, body{
 }
 /* HERO */
 .hero{
+    width: 100vw;
     height: 100vh;
     background: url("../img/bg.jpg");
     background-repeat: no-repeat;
