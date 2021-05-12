@@ -14,7 +14,7 @@ html, body{
     margin: 0 auto;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: none;
 }
 /* HERO */
 .hero{
