@@ -13,12 +13,16 @@ html, body{
     width: min(80%, 1250px);
     margin: 0 auto;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
 /* HERO */
 .hero{
     height: 100vh;
     background: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     color: #fff;
     padding-top: 2rem;
