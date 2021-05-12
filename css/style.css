@@ -3,12 +3,16 @@
     margin: 0;
     padding: 0;
 }
+/* HOLA */
 html, body{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     background-color: black;
     height: 100%;
     width: 100%;
+}
+button{
+    background:none;
 }
 /* BOTON */
 .btnfos {
@@ -132,7 +136,7 @@ html, body{
     background: rgb(254,210,75);
     background: linear-gradient(0deg, rgba(254,210,75,1) 0%, rgba(254,245,137,1) 66%, rgba(215,157,21,1) 100%);
     border: 3px solid rgba(221,158,23);
-    box-shadow: 2px 2px 5px rgb(251, 226, 0);
+    box-shadow: 2px 0px 5px rgb(251, 226, 0);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -155,6 +159,7 @@ html, body{
 
 /* FOOTER */
 footer{
+    padding: 10px 0px;
     height: auto;
     width: 100%;
     background-color: #303030;
@@ -176,6 +181,8 @@ footer{
 @media (max-width: 600px){
     .secction{
         background: url("../img/Billetes2.png");
+        background-position: bottom;
+        background-size: contain;
     }
 
 }
