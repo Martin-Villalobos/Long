@@ -116,9 +116,10 @@ button{
 }
 .title h1{
     font-family:'Alfa Slab One', cursive;
-    -webkit-text-stroke: 0.2px black;
+    -webkit-text-stroke: 0.02vw black;
     font-size: calc(3rem + 3vw);
     font-weight: bolder;
+    letter-spacing: 5px;
 }
 /* SECCTION */
 .secction{
