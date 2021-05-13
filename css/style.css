@@ -205,7 +205,7 @@ footer{
         -webkit-text-stroke: 0.1rem black; 
     }
     .secction{
-        /* background: url("../img/Poker2.jpg"); */
+        background: url("../img/Poker2.jpg");
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: cover;
