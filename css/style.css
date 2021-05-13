@@ -116,7 +116,7 @@ button{
 }
 .title h1{
     font-family:'Alfa Slab One', cursive;
-    -webkit-text-stroke: 0.02vw black;
+    -webkit-text-stroke: 10px black;
     font-size: calc(3rem + 3vw);
     font-weight: bolder;
     letter-spacing: 5px;
