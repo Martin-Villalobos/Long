@@ -197,7 +197,7 @@ footer{
         background-attachment: unset;
     }
     .title h1{
-        -webkit-text-stroke: 0.1rem black; 
+        -webkit-text-stroke: 0.3rem black; 
     }
     .secction{
         background: url("../img/Poker2.jpg");
