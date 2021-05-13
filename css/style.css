@@ -22,7 +22,7 @@ button{
 /* BOTON */
 .btnfos {
 
-    background: #1D438A;
+    background: #130280;
     color:  #fff;
     cursor: pointer;
     margin: 30px auto 2em;
@@ -37,7 +37,7 @@ button{
     text-decoration: none;
 }
 .btnfos-4 {
-  border: 4px solid #5884D6;
+  border: 4px solid #6D3BD9;
   overflow: hidden;
   position: relative;
 }
@@ -100,26 +100,31 @@ button{
 }
 /* HERO TITLE */
 .title{
-    width: 100%;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
 }
 .title h3{
-    font-size: calc(1rem + 1vw);
+    font-size: calc(1rem + 0.7vw);
+    
 }
 .title h2{
-    font-size: calc(2rem + 3vw);
+    margin-top: -1rem;
+    font-size: calc(2rem + 2vw);
     font-weight: bold;
 }
 .title h1{
     font-family:'Alfa Slab One', cursive;
-    -webkit-text-stroke: 0.0625rem black;
-    font-size: calc(3rem + 3vw);
-    font-weight: bolder;
+    font-size: calc(3rem + 4vw);
     letter-spacing: 5px;
+
+    background: -webkit-linear-gradient(90deg, #800000, #ff0000 30%,rgba(255,140,140,1)55%,#ff0000,#800000 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.01rem rgb(0, 0, 0);
 }
 /* SECCTION */
 .secction{
@@ -137,6 +142,7 @@ button{
     flex-wrap: wrap;
     margin-top: 4rem;
 }
+
 .cards > *{
     flex: 1 1 20%;
     margin: 15px 0.9%;
@@ -197,7 +203,7 @@ footer{
         background-attachment: unset;
     }
     .title h1{
-        -webkit-text-stroke: 0.3rem black; 
+        -webkit-text-stroke: 0.1rem black; 
     }
     .secction{
         background: url("../img/Poker2.jpg");
@@ -205,5 +211,5 @@ footer{
         background-position: center;
         background-size: cover;
     }
-
+    
 }
