@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color:inherit;
 }
-/* HOLA */
+html{
+    scroll-behavior: smooth;
+}
 html, body{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -16,20 +21,23 @@ button{
 }
 /* BOTON */
 .btnfos {
-    color: #fff;
+
+    background: #1D438A;
+    color:  #fff;
     cursor: pointer;
     margin: 30px auto 2em;
     line-height: 45px;
-    padding: 0px 20px;
+    padding: 10px 20px;
     font-size: calc(1rem + 1vw);
     font-weight: bold;
     text-transform: uppercase;
     width: auto;    
     border-radius: 50px;
     display: inline-block;
+    text-decoration: none;
 }
 .btnfos-4 {
-  border: 4px solid;
+  border: 4px solid #5884D6;
   overflow: hidden;
   position: relative;
 }
@@ -37,7 +45,7 @@ button{
   z-index: 20;
 }
 .btnfos-4:after {
-  background: #fff;
+  background: rgb(253, 241, 185);
   content: "";
   height: 155px;
   left: -75px;
@@ -70,6 +78,7 @@ button{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     color: #fff;
     padding-top: 2rem;
 }
@@ -98,25 +107,22 @@ button{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.title h3{
+    font-size: calc(1rem + 1vw);
+}
 .title h2{
     font-size: calc(2rem + 3vw);
+    font-weight: bold;
 }
 .title h1{
+    font-family:'Alfa Slab One', cursive;
+    -webkit-text-stroke: 0.2px black;
     font-size: calc(3rem + 3vw);
-}
-.btn{
-    font-size: calc(0.7rem + 2vw);
-    font-weight: bold;
-    padding: calc(0.5rem + 1vw) calc(0.5rem + 3vw);
-    border-radius: 100px;
-    margin-top: 1rem;
-}
-.btn:hover{
-    color: blue;
+    font-weight: bolder;
 }
 /* SECCTION */
 .secction{
-    background: url("../img/Billetes.png");
+    background: url("../img/Poker.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -153,7 +159,7 @@ button{
 }
 .cards > * p{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -170,19 +176,30 @@ footer{
 .footer-list{
     text-align: center;
     list-style: none;
-
+    line-height: 30px;
 }
 .footer-list li{
     text-align: center;
     list-style: inside;
     list-style-type: none;
 }
+.footer-list li{
+    color: #AFAFAF;
+}
+.footer-list li img{
+    vertical-align: sub;
+    color: #AFAFAF;
+}
 /* MEDIA */
 @media (max-width: 600px){
+    .hero{
+        background-attachment: unset;
+    }
     .secction{
-        background: url("../img/Billetes2.png");
-        background-position: bottom;
-        background-size: contain;
+        background: url("../img/Poker2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
 }
