@@ -21,13 +21,12 @@ button{
 }
 /* BOTON */
 .btnfos {
-
     background: #130280;
     color:  #1CF5FF;
     cursor: pointer;
     margin: 30px auto 2em;
     line-height: 45px;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     font-size: calc(1rem + 1vw);
     font-weight: bold;
     text-transform: uppercase;
@@ -78,7 +77,6 @@ button{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     color: #fff;
     padding-top: 2rem;
 }
@@ -89,8 +87,7 @@ button{
     align-items: center;
 }
 .logo{
-    font-size: 2.8rem;
-    font-weight: 700;
+    height: calc(1.8rem + 1.2vw);
 }
 .nav a{
     font-weight: normal;
@@ -102,13 +99,13 @@ button{
 .title{
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: min-content;
+    text-align: center;
 }
 .title h3{
-    text-align: start;
     font-size: calc(1rem + 0.7vw);
     
 }
@@ -125,10 +122,8 @@ button{
 }
 /* SECCTION */
 .secction{
-    background: url("../img/Poker.jpg");
 
-    /* background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 64%, rgba(59,25,60,1) 80%);; */
+    background: url("../img/Poker.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -145,11 +140,10 @@ button{
 .cards > *{
     flex: 1 1 20%;
     margin: 15px 0.9%;
-    background: rgb(254,210,75);
-    background: linear-gradient(0deg, rgba(254,210,75,1) 0%, rgba(254,245,137,1) 66%, rgba(215,157,21,1) 100%);
-    border: 3px solid rgba(221,158,23);
-    box-shadow: 2px 0px 5px rgb(251, 226, 0);
-    border-radius: 30px;
+    background: rgb(221,216,216);
+    background: linear-gradient(0deg, rgba(221,216,216,1) 0%, rgba(165,166,167,1) 10%, rgba(209,210,212,1) 74%, rgba(152,152,152,1) 100%);
+    border: 3px solid rgb(207, 207, 207);
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,11 +190,11 @@ footer{
     vertical-align: sub;
     color: #AFAFAF;
 }
+.footer-list p{
+    font-size: 0.8rem;
+}
 /* MEDIA */
 @media (max-width: 600px){
-    .hero{
-        background-attachment: unset;
-    }
     .title h1{
         -webkit-text-stroke: 0.1rem black; 
     }
