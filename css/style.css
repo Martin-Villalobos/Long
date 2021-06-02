@@ -73,7 +73,7 @@ button{
 /* HERO */
 .hero{
     height: 100vh;
-    background: url("../img/bg.jpg");
+    background: #111;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
